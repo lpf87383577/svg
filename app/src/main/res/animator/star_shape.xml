@@ -1,0 +1,19 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:ordering="sequentially"
+    android:shareInterpolator="true">
+    <!-- 如果俩个SVG进行动画，则俩个节点需要一zhi 先由星变成勺子再由勺子变成心-->
+    <!--propertyName 属性名 valueType 值得类型-->
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="pathData"
+        android:valueFrom="@string/svgStarStr"
+        android:valueTo="@string/svgFoodStr"
+        android:valueType="pathType" />
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="pathData"
+        android:valueFrom="@string/svgFoodStr"
+        android:valueTo="@string/svgStarStr"
+        android:valueType="pathType" />
+</set>

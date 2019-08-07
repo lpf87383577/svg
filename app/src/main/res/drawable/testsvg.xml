@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:alpha="0.80"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0"> <!--宽度平均分为24等份-->
+<path
+android:fillColor="#000000"
+android:pathData="M 287 87.5
+C 351.893458105 87.5 404.5 138.091823269 404.5 200.5
+C 404.5 262.908176731 351.893458105 313.5 287 313.5
+C 222.106541895 313.5 169.5 262.908176731 169.5 200.5
+C 169.5 138.091823269 222.106541895 87.5 287 87.5
+Z" />
+    </vector>
